@@ -40,6 +40,7 @@ body.protected-view::before {
   background: rgba(3, 4, 9, 0.96);
 }
 
+/*
 body.protected-view::after {
   content: "Acesso bloqueado";
   position: fixed;
@@ -52,6 +53,7 @@ body.protected-view::after {
   text-transform: uppercase;
   transform: translate(-50%, -50%);
 }
+*/
 
 a {
   color: inherit;
