@@ -84,18 +84,18 @@ document.addEventListener("keydown", (event) => {
   }
 });
 
+/*
 setInterval(() => {
   const widthGap = window.outerWidth - window.innerWidth;
   const heightGap = window.outerHeight - window.innerHeight;
 
-/*
   if (widthGap > 160 || heightGap > 160) {
      document.body.classList.add("protected-view");
   } else {
     document.body.classList.remove("protected-view");
   }
-*/
 }, 1000);
+*/
 
 function setServerCardState(serverId, state, text) {
   const card = document.querySelector(`[data-server-card="${serverId}"]`);
